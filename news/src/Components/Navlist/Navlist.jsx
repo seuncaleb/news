@@ -21,7 +21,7 @@ function Navlist ({navList, setArticles, articles}){
 
  const story = articles.map((article, index)=> {
 
-    return <div key ={index} className="col-md-6">
+    return <div key ={index} className="col-md-4">
 <div className="card m-2 rounded-0">
   <img className="card-img-top rounded-0" src={article.multimedia[1].url} alt="Card cap"/>
   <div className="card-body">
